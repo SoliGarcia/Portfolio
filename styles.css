@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+  margin: 3;
+  text-align: center;
+  font-family: 'pegasus', serif;
+  background: linear-gradient(100deg, burlywood, darkolivegreen);
+  color: black;
+  font-size: 1.1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-indent: 2rem;
+}
+
+h2 {
+  font-size: 2.0rem;
+}
+
+h3{
+  font-size: 2.0rem;
+}
+
+h1.title {
+  font-style: oblique;
+  font-size: 5em;
+}
+
+h2.front {
+  font-size: 2em;
+}
+
+p {
+  text-indent: 2.4rem;
+  font-size: 1.5rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: burlywood;
+  color: rgb(255, 175, 1);
+  border: 2px solid darkolivegreen;
+}
+
+th, td {
+  border: 1px solid rgb(255, 175, 1);
+  padding: 10px;
+  text-align: left;
+}
+
+body {
+  margin: 0;
+  font-family: 'pegasus', serif;
+  color: black;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
+  border: solid 2px rgb(255, 175, 1);
+}
+
+li {
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 5.3rem;
+  border: solid 2px rgb(255, 175, 1);
+}
+
+nav a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: solid 2px rgb(225, 175, 1);
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  padding: 1rem;
+}
+
+footer{
+  font-size: 2.3rem;
+  padding-top: 2.3rem;
+  border-top: solid, 1.3rem, rgb(225, 175, 1); ;
+}
+
+.message-box {
+  border: 3rem solid #556b2f; 
+  background-color: burlywood;
+  color: #2f2f2f;
+  padding: 1rem;
+  margin: 1.25rem 0;
+  border-radius: 0.5rem;
+}
+
+/* Full-page gradient background and center alignment */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: #fdf5e6; 
+}
+
+.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Form container */
+.contact-container {
+  background-color: rgba(255, 248, 220, 0.95);
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+/* Headings */
+.contact-container h1 {
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+.contact-container p {
+  margin-bottom: 1.5rem;
+  color: black;
+  font-size: 1rem;
+}
+
+/* Form inputs */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid darkolivegreen;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Submit button */
+.contact-form button {
+  width: 100%;
+  padding: 0.9rem;
+  background-color: darkolivegreen;
+  color: black;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #556b2f;
+}
+
+/* Thank-you banner */
+.success-message {
+  display: none;
+  margin: 1rem auto 0 auto;
+  text-align: center;
+  background-color: #e6f0d6;
+  border: 2px solid #6b8e23;
+  color: black;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  font-weight: bold;
+  max-width: 90%;
+  box-sizing: border-box;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .contact-container {
+    padding: 1.5rem;
+  }
+}
+
